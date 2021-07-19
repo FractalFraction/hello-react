@@ -1,5 +1,5 @@
 const Greeting = () => {
-  return <p id="greeting">"Hello, Colin!"</p>;
+  return <p id="greeting">Hello, Colin!</p>;
 }
 
-export Greeting
+export default Greeting

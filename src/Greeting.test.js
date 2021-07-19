@@ -1,7 +1,7 @@
 // Import Testing Framework
 import { render, screen } from '@testing-library/react';
 // Import js files under test
-import Greeting from './Greeting';
+import Greeting from './Greeting.js';
 
 test('renders learn react link', () => {
   render(<Greeting />);
