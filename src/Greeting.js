@@ -1,7 +1,5 @@
-function Greeting() {
-  return (
-      <p id="greeting">"Hello, Colin!"</p>
-  );
+const Greeting = () => {
+  return <p id="greeting">"Hello, Colin!"</p>;
 }
 
-export default Greeting;
+export Greeting

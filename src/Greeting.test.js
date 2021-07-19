@@ -4,7 +4,7 @@ import { render, screen } from '@testing-library/react';
 import Greeting from './Greeting';
 
 test('renders learn react link', () => {
-  render(<App />);
+  render(<Greeting />);
   const greeting = screen.getByText(/Hello, Colin/i);
   expect(greeting).toBeInTheDocument();
 });

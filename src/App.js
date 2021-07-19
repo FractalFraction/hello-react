@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+//import React from 'react';
+// import logo from './logo.svg';
 import './App.css';
-import Greeting from './Greeting'
+import {Greeting} from './Greeting.js'
 
 function App() {
   return (
     <div className="App">
-      {/* <p id="greeting">"Hello, Colin!"</p> */}
-      <Greeting/>
+      <Greeting />
     </div>
   );
 }
